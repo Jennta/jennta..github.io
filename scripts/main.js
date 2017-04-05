@@ -15,9 +15,9 @@ var myButton = document.querySelector('button');
 var myHeading = document.querySelector('h1');
 
 function setUserName() {
-  var myName = prompt('Please enter your name.');
+  var myName = prompt('Ваше имя');
   localStorage.setItem('name', myName);
-  myHeading.innerHTML  = 'Mozilla is cool, ' + myName;
+  myHeading.innerHTML  = 'Рецепты домашних тортов для Вас, ' + myName;
 }
 
 if(!localStorage.getItem('name')) {
